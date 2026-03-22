@@ -1,240 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LWW Nursing Textbooks | Medical School Books | USMLE Step 1 Review | Drug Handbook</title>
-    <meta name="description" content="Nursing Drug Handbook, Lippincott Pocket Drug Guide, Illustrated Reviews Series, Board Review Series (BRS), USMLE Step 1 books, nursing school textbooks, medical textbooks, pharmacology textbooks at shop.lww.com">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="LWW Nursing Textbooks | Medical School Books | Drug Handbook">
-    <meta property="og:description" content="Best nursing school books, USMLE Step 1 review books, Lippincott drug handbook, medical textbooks for nursing students & medical students">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourdomain.com">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="LWW Nursing Textbooks Guide">
-    <meta name="twitter:description" content="Nursing Drug Handbook, USMLE review books, medical school textbooks">
-
-    <!-- Robots -->
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-
-    <!-- Canonical -->
-    <link rel="canonical" href="https://yourdomain.com/">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        /* Basic Reset & Layout */
-        * { margin:0; padding:0; box-sizing:border-box; }
-        body { font-family: 'Inter', sans-serif; line-height:1.7; color:#2d3748; background:#f7fafc; }
-        .container { max-width:1200px; margin:0 auto; padding:0 24px; }
-        .disclosure-banner { background:#fde8d5; border-bottom:3px solid #f59e0b; padding:16px 24px; text-align:center; font-weight:600; color:#92400e; position:sticky; top:0; z-index:100; }
-
-        /* Header */
-        header { background:linear-gradient(135deg,#1e40af 0%,#3b82f6 50%,#1e3a8a 100%); color:white; padding:100px 24px 80px; text-align:center; position:relative; overflow:hidden; }
-        header::before { content:''; position:absolute; top:0; left:0; right:0; bottom:0; background-image: radial-gradient(circle at 20% 80%, rgba(120,119,198,0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%); pointer-events:none; }
-        header > * { position:relative; z-index:1; }
-        h1 { font-size:clamp(2rem,5vw,3rem); font-weight:700; margin-bottom:20px; max-width:800px; margin-left:auto;margin-right:auto; }
-        header p { font-size:1.25rem; opacity:0.95; max-width:700px; margin:0 auto 40px; font-weight:400; }
-        .cta { display:inline-block; background:rgba(255,255,255,0.95); color:#1e40af; padding:18px 36px; text-decoration:none; border-radius:16px; font-weight:600; font-size:1.15rem; box-shadow:0 12px 35px rgba(30,64,175,0.3); transition: all 0.3s cubic-bezier(0.4,0,0.2,1); border:2px solid rgba(255,255,255,0.3); }
-        .cta:hover { background:white; transform:translateY(-3px); box-shadow:0 20px 45px rgba(30,64,175,0.4); color:#1e3a8a; border-color: rgba(255,255,255,0.5); }
-
-        /* Sections */
-        .section { padding:90px 0; }
-        .section:nth-child(odd) { background: rgba(248,250,252,0.7); }
-        .section-title { font-size:clamp(1.75rem,4vw,2.5rem); color:#1e40af; text-align:center; margin-bottom:60px; font-weight:700; }
-        .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(360px,1fr)); gap:40px; margin-top:60px; }
-        .card { background:white; padding:48px 36px; border-radius:24px; box-shadow:0 20px 60px rgba(0,0,0,0.08); transition:all 0.4s; border:1px solid rgba(255,255,255,0.4); position:relative; overflow:hidden; }
-        .card h3 { font-size:1.75rem; color:#1e40af; margin-bottom:24px; font-weight:700; }
-        .card p { color:#4a5568; margin-bottom:32px; font-size:1.05rem; }
-
-        /* Daily Tip */
-        .daily-tip { background:linear-gradient(135deg,#10b981 0%,#059669 50%,#047857 100%); color:white; text-align:center; padding:80px 24px; position:relative; }
-        .daily-tip::before { content:'💡'; font-size:5rem; position:absolute; top:20px; right:20px; opacity:0.15; }
-        .tip-date { font-size:1.15rem; opacity:0.9; margin-bottom:20px; font-weight:500; }
-        .tip-title { font-size:2rem; font-weight:700; margin-bottom:24px; max-width:800px; margin-left:auto;margin-right:auto; }
-        .tip-content { font-size:1.2rem; max-width:900px; margin:0 auto 40px; opacity:0.95; font-weight:400; }
-
-        /* STUDENT EXPERIENCES - TRAFFIC PSYCHOLOGY */
-        .student-section { padding:90px 24px; background:#f8fafc; }
-        .student-title { font-size:2rem; text-align:center; margin-bottom:60px; color:#1e40af; font-weight:700; }
-        .student-post { background:white; border-radius:20px; padding:28px; box-shadow:0 8px 25px rgba(0,0,0,0.1); margin-bottom:40px; position:relative; }
-        .student-post::before { content:\"💬\"; font-size:2rem; position:absolute; top:-12px; left:-12px; opacity:0.15; }
-        .student-name { font-weight:700; color:#1e40af; margin-bottom:8px; }
-        .student-platform { font-size:0.9rem; color:#718096; margin-bottom:12px; }
-        .student-content { font-size:1rem; color:#4a5568; line-height:1.6; }
-
-        footer { background:linear-gradient(135deg,#1a202c 0%,#2d3748 100%); color:#a0aec0; text-align:center; padding:60px 24px 40px; font-size:0.98rem; }
-        footer a { color:#60a5fa; text-decoration:none; font-weight:500; }
-        footer a:hover { color:#93c5fd; }
-
-        @media(max-width:768px){.container{padding:0 16px;}.disclosure-banner{font-size:0.9rem; padding:14px 16px;}.section{padding:60px 0;}.card{padding:32px 24px;}}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LWW Nursing & Medical School Textbooks | USMLE Step 1 Review</title>
+<meta name="description" content="Comprehensive guide to LWW nursing textbooks, medical school books, USMLE review, nursing drug handbooks. Affiliate links included.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://yourdomain.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; line-height:1.7; color:#2d3748; background:linear-gradient(to bottom,#f7fafc 0%,#edf2f7 100%); }
+.container { max-width:1200px; margin:0 auto; padding:0 24px; }
+.disclosure-banner { background:linear-gradient(90deg,#fef5e7 0%,#fde8d5 100%); border-bottom:3px solid #f59e0b; padding:16px 24px; text-align:center; font-weight:600; color:#92400e; font-size:0.95rem; position:sticky; top:0; z-index:100; box-shadow:0 2px 10px rgba(245,158,11,0.2);}
+header { background:linear-gradient(135deg,#1e40af 0%,#3b82f6 50%,#1e3a8a 100%); color:white; padding:100px 24px 80px; text-align:center; position:relative; overflow:hidden; }
+header::before { content:''; position:absolute; top:0; left:0; right:0; bottom:0; background-image:radial-gradient(circle at 20% 80%, rgba(120,119,198,0.3) 0%, transparent 50%),radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%); pointer-events:none; }
+header > * { position: relative; z-index:1; }
+h1 { font-size:clamp(2rem,5vw,3rem); font-weight:700; margin-bottom:20px; max-width:800px; margin-left:auto; margin-right:auto; }
+header p { font-size:1.25rem; opacity:0.95; max-width:700px; margin:0 auto 40px; font-weight:400; }
+.cta { display:inline-block; background:rgba(255,255,255,0.95); color:#1e40af; padding:18px 36px; text-decoration:none; border-radius:16px; font-weight:600; font-size:1.15rem; box-shadow:0 12px 35px rgba(30,64,175,0.3); transition:all 0.3s cubic-bezier(0.4,0,0.2,1); border:2px solid rgba(255,255,255,0.3);}
+.cta:hover { background:white; transform:translateY(-3px); box-shadow:0 20px 45px rgba(30,64,175,0.4); color:#1e3a8a; border-color:rgba(255,255,255,0.5);}
+.section { padding:90px 0; }
+.section:nth-child(odd) { background: rgba(248,250,252,0.7);}
+.section-title { font-size:clamp(1.75rem,4vw,2.5rem); color:#1e40af; text-align:center; margin-bottom:60px; font-weight:700; }
+.daily-tip { background:linear-gradient(135deg,#10b981 0%,#059669 50%,#047857 100%); color:white; text-align:center; padding:80px 24px; position:relative; }
+.daily-tip::before { content:'💡'; font-size:5rem; position:absolute; top:20px; right:20px; opacity:0.15; }
+.tip-date { font-size:1.15rem; opacity:0.9; margin-bottom:20px; font-weight:500; }
+.tip-title { font-size:2rem; font-weight:700; margin-bottom:24px; max-width:800px; margin-left:auto; margin-right:auto; }
+.tip-content { font-size:1.2rem; max-width:900px; margin:0 auto 40px; opacity:0.95; font-weight:400; }
+/* Cards */
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(360px,1fr)); gap:40px; margin-top:60px; }
+.card { background:white; padding:48px 36px; border-radius:24px; box-shadow:0 20px 60px rgba(0,0,0,0.08); transition:all 0.4s cubic-bezier(0.4,0,0.2,1); border:1px solid rgba(255,255,255,0.4); position:relative; overflow:hidden;}
+.card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:linear-gradient(90deg,#1e40af,#3b82f6,#1e40af);}
+.card:hover { transform:translateY(-12px); box-shadow:0 35px 80px rgba(0,0,0,0.15);}
+.card h3 { font-size:1.75rem; color:#1e40af; margin-bottom:24px; font-weight:700;}
+.card p { color:#4a5568; margin-bottom:32px; font-size:1.05rem; }
+/* Comparison Table */
+.comparison-section { background:linear-gradient(135deg, rgba(30,64,175,0.05) 0%, rgba(59,130,246,0.03) 100%); }
+.comparison-table { background:white; border-radius:24px; overflow:hidden; box-shadow:0 25px 70px rgba(0,0,0,0.12); margin:60px auto; font-size:0.98rem; border-collapse:separate; border-spacing:0; max-width:100%; }
+.comparison-table thead th { background:linear-gradient(135deg,#1e40af 0%,#3b82f6 100%); color:white; padding:24px 20px; text-align:left; font-weight:600; font-size:1.05rem; position:sticky; top:0; z-index:10; }
+.comparison-table td { padding:24px 20px; border-bottom:1px solid #e2e8f0; vertical-align:top; }
+.comparison-table tr:nth-child(even) { background:#fafbfc; }
+.best-value { background:linear-gradient(135deg,#dcfce7,#bbf7d0)!important; font-weight:700; position:relative; }
+.best-value::after { content:'🏆 BEST VALUE'; position:absolute; top:-8px; right:12px; background:#16a34a; color:white; padding:4px 12px; border-radius:20px; font-size:0.75rem; font-weight:700; }
+/* CTA links in table */
+.comparison-table a { color:#1e40af; text-decoration:none; font-weight:600; padding:8px 16px; border-radius:8px; background:rgba(30,64,175,0.05); transition:all 0.3s ease; display:inline-block; }
+.comparison-table a:hover { background:rgba(30,64,175,0.15); transform:translateY(-1px); }
+/* FAQ */
+.faq-item { margin-bottom:32px; }
+.faq-question { font-size:1.3rem; font-weight:600; color:#1e40af; cursor:pointer; padding:28px; background:white; border-radius:20px; box-shadow:0 8px 25px rgba(0,0,0,0.1); transition:all 0.4s cubic-bezier(0.4,0,0.2,1); border:2px solid transparent; }
+.faq-question:hover { box-shadow:0 15px 40px rgba(0,0,0,0.15); border-color:rgba(30,64,175,0.2); transform:translateY(-2px);}
+.faq-answer { max-height:0; overflow:hidden; background:linear-gradient(to bottom,#f8fafc,white); padding:0 28px; transition:all 0.4s cubic-bezier(0.4,0,0.2,1); border-radius:0 0 20px 20px;}
+.faq-item.active .faq-answer { max-height:300px; padding:32px 28px; }
+/* Legal */
+.legal-section { background:linear-gradient(135deg,#f1f5f9 0%,#e2e8f0 100%); padding:80px 0; }
+.legal-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:48px; }
+.legal-card { background:white; padding:48px; border-radius:24px; box-shadow:0 20px 60px rgba(0,0,0,0.08); position:relative;}
+.legal-card h3 { color:#1e40af; font-size:1.6rem; margin-bottom:24px; font-weight:700; display:flex; align-items:center; gap:12px; }
+.contact-info { background:linear-gradient(135deg,#e6f3ff 0%,#dbeafe 100%); padding:28px; border-radius:16px; margin:24px 0; border:1px solid rgba(59,130,246,0.2);}
+.phone-number { font-size:1.4rem; font-weight:700; color:#1e40af; display:block; margin:12px 0;}
+footer { background:linear-gradient(135deg,#1a202c 0%,#2d3748 100%); color:#a0aec0; text-align:center; padding:60px 24px 40px; font-size:0.98rem;}
+footer a { color:#60a5fa; text-decoration:none; font-weight:500; transition:color 0.3s ease;}
+footer a:hover { color:#93c5fd;}
+/* Responsive */
+@media(max-width:768px){.container{padding:0 16px;}.disclosure-banner{font-size:0.9rem;padding:14px 16px;}.card{padding:32px 24px;}.section{padding:60px 0;} 
+.comparison-table{font-size:0.85rem;border-radius:16px;overflow-x:auto;display:block;white-space:nowrap;}
+.comparison-table thead,.comparison-table tbody,.comparison-table th,.comparison-table td,.comparison-table tr{display:block;}
+.comparison-table thead tr{position:absolute;top:-9999px;left:-9999px;}
+.comparison-table tr{border:1px solid #e2e8f0;margin-bottom:16px;border-radius:12px;display:block;padding:12px;}
+.comparison-table td{border:none;position:relative;padding-left:50%;padding-right:12px;display:block;}
+.comparison-table td:before{content:attr(data-label);position:absolute;left:16px;font-weight:700;color:#1e40af;width:45%;}}
+</style>
 </head>
 <body>
 
-<div class=\"disclosure-banner\" role=\"alert\">
-    <strong>🔔 ADVERTISEMENT & AFFILIATE DISCLOSURE:</strong> Contains affiliate links to <strong>LWW nursing textbooks</strong> and <strong>medical school books</strong>. <strong>I earn commission on purchases</strong> at no extra cost to you.
+<div class="disclosure-banner" role="alert">
+<strong>🔔 ADVERTISEMENT & AFFILIATE DISCLOSURE:</strong> Contains affiliate links to <strong>LWW nursing textbooks</strong> and <strong>medical school books</strong>. <strong>I earn commission on purchases</strong> at no extra cost to you.
 </div>
 
 <header>
-    <h1>LWW Nursing Textbooks | Medical School Books | USMLE Review</h1>
-    <p>Complete guide to <strong>Nursing Drug Handbook</strong>, <strong>Lippincott Pocket Drug Guide</strong>, <strong>Board Review Series</strong>, <strong>Illustrated Reviews</strong> - Top <strong>nursing school books</strong> & <strong>USMLE Step 1 books</strong></p>
-    <a href=\"https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0\" class=\"cta\" target=\"_blank\" rel=\"nofollow sponsored\">🛒 Shop LWW Textbooks</a>
+<h1>LWW Nursing Textbooks | Medical School Books | USMLE Review</h1>
+<p>Complete guide to <strong>Nursing Drug Handbook</strong>, <strong>Lippincott Pocket Drug Guide</strong>, <strong>Board Review Series</strong>, <strong>Illustrated Reviews</strong> - Top <strong>nursing school books</strong> & <strong>USMLE Step 1 books</strong></p>
+<a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored noopenner" aria-label="Shop LWW nursing textbooks and medical school books">🛒 Shop LWW Textbooks</a>
 </header>
 
-<section class=\"daily-tip\" id=\"dailyTip\" aria-live=\"polite\">
-    <div class=\"container\">
-        <div class=\"tip-date\" id=\"tipDate\"></div>
-        <h2 class=\"tip-title\" id=\"tipTitle\">Loading today's nursing tip...</h2>
-        <p class=\"tip-content\" id=\"tipContent\">Daily tips for nursing students and medical professionals using LWW textbooks</p>
-    </div>
+<section class="daily-tip" id="dailyTip" aria-live="polite">
+<div class="container">
+<div class="tip-date" id="tipDate"></div>
+<h2 class="tip-title" id="tipTitle">Loading today's nursing tip...</h2>
+<p class="tip-content" id="tipContent">Daily tips for nursing students and medical professionals using LWW textbooks</p>
+</div>
 </section>
 
-<section class=\"section\" id=\"nursing-textbooks\">
-    <div class=\"container\">
-        <h2 class=\"section-title\">🏥 Best Nursing Textbooks & Drug Handbooks</h2>
-        <div class=\"grid\">
-            <article class=\"card\">
-                <h3>Nursing Drug Handbook - #1 Nursing Textbook</h3>
-                <p><strong>4,500+ trade/generic drugs</strong> • Dosage calculations • IV compatibility • Clinical warnings. Top <strong>pharmacology textbook</strong> for <strong>nursing school</strong>.</p>
-                <a href=\"https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0\" class=\"cta\" target=\"_blank\" rel=\"nofollow sponsored\">Buy Nursing Drug Handbook</a>
-            </article>
-            <article class=\"card\">
-                <h3>Lippincott Pocket Drug Guide</h3>
-                <p><strong>3,500+ essential drugs</strong> in portable format. Perfect <strong>LWW nursing books</strong> for clinical rotations and hospital shifts.</p>
-                <a href=\"https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0\" class=\"cta\" target=\"_blank\" rel=\"nofollow sponsored\">Buy Pocket Drug Guide</a>
-            </article>
-        </div>
-    </div>
+<section class="section" id="nursing-textbooks">
+<div class="container">
+<h2 class="section-title">🏥 Best Nursing Textbooks & Drug Handbooks</h2>
+<div class="grid">
+<article class="card">
+<h3>Nursing Drug Handbook - #1 Nursing Textbook</h3>
+<p><strong>4,500+ trade/generic drugs</strong> • Dosage calculations • IV compatibility • Clinical warnings. Top <strong>pharmacology textbook</strong> for <strong>nursing school</strong>.</p>
+<a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy Nursing Drug Handbook</a>
+</article>
+
+<article class="card">
+<h3>Lippincott Pocket Drug Guide</h3>
+<p><strong>3,500+ essential drugs</strong> in portable format. Perfect <strong>LWW nursing books</strong> for clinical rotations and hospital shifts.</p>
+<a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy Pocket Drug Guide</a>
+</article>
+</div>
+</div>
 </section>
 
-<!-- STUDENT EXPERIENCES / SOCIAL PROOF -->
-<section class=\"student-section\">
-    <div class=\"container\">
-        <h2 class=\"student-title\">💬 Student Experiences</h2>
-        <div class=\"student-post\">
-            <div class=\"student-name\">Emily R.</div>
-            <div class=\"student-platform\">Reddit</div>
-            <div class=\"student-content\">\"The <a href='https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0'>Nursing Drug Handbook</a> has been a lifesaver during clinical rotations. Can't imagine studying without it!\"</div>
-        </div>
-        <div class=\"student-post\">
-            <div class=\"student-name\">Daniel S.</div>
-            <div class=\"student-platform\">Quora</div>
-            <div class=\"student-content\">\"For USMLE Step 1 prep, the <a href='https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0'>Illustrated Reviews Pharmacology</a> series made tough topics so much easier to understand.\"</div>
-        </div>
-        <div class=\"student-post\">
-            <div class=\"student-name\">Samantha K.</div>
-            <div class=\"student-platform\">Medium</div>
-            <div class=\"student-content\">\"I relied on <a href='https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0'>Lippincott Pocket Drug Guide</a> daily during hospital shifts. Portable, accurate, and highly recommended!\"</div>
-        </div>
-    </div>
+<section class="section comparison-section" id="comparison">
+<div class="container">
+<h2 class="section-title">Nursing Textbooks Comparison: LWW vs Others</h2>
+<table class="comparison-table" role="table" aria-label="LWW nursing textbooks comparison">
+<thead>
+<tr>
+<th scope="col">Feature</th>
+<th scope="col">Nursing Drug Handbook</th>
+<th scope="col">Lippincott Pocket Guide</th>
+<th scope="col">Illustrated Reviews</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Best For" scope="row"><strong>Best For</strong></td>
+<td class="best-value" data-label="Nursing Drug Handbook"><strong>Nursing school textbooks</strong></td>
+<td data-label="Pocket Guide">Clinical reference</td>
+<td data-label="Illustrated Reviews"><strong>USMLE Step 1 books</strong></td>
+</tr>
+<tr>
+<td data-label="Drugs" scope="row"><strong>Drugs Covered</strong></td>
+<td>4,500+ trade/generic</td>
+<td>3,500+ essential</td>
+<td>Subject-specific</td>
+</tr>
+<tr>
+<td data-label="Format" scope="row"><strong>Format</strong></td>
+<td>Hardcover (1,800+ pages)</td>
+<td>Pocket paperback</td>
+<td>Full-color illustrated</td>
+</tr>
+<tr>
+<td data-label="Features" scope="row"><strong>Key Features</strong></td>
+<td>IV compatibility, dosage calc</td>
+<td>Quick lookup tables</td>
+<td>Visual diagrams, mnemonics</td>
+</tr>
+<tr>
+<td data-label="Shop" scope="row"><strong>Shop Now</strong></td>
+<td><a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">🛒 Buy</a></td>
+<td><a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">🛒 Buy</a></td>
+<td><a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">🛒 Buy</a></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 
-<script>
-// DAILY TIP SCRIPT
-const tips = [
-    "Double-check high-alert meds (insulin, anticoagulants) before administration - Nursing Drug Handbook reference.",
-    "SBAR handoffs (Situation, Background, Assessment, Recommendation) - LWW nursing textbooks standard.",
-    "TEACH-BACK method confirms patient understanding - Lippincott nursing protocol.",
-    "Document immediately after care - prevents errors during busy shifts.",
-    "Hydration + protein snacks prevent med errors - Illustrated Reviews Physiology.",
-    "Warm arm before IVs - dilates veins per nursing textbooks.",
-    "Review weekly errors + create mnemonics - BRS Pathology technique.",
-    "Micro-breaks reset focus between patients - prevents burnout.",
-    "Specific delegation saves lives - 'Call if blood sugar >300'.",
-    "Picmonic visuals + LWW Illustrated Reviews = Step 1 mastery."
-];
-const now = new Date();
-const dayOfYear = Math.floor((now - new Date(now.getFullYear(),0,0))/(1000*60*60*24));
-const tipIndex = dayOfYear % tips.length;
-document.getElementById('tipDate').textContent = `Daily Tip • ${now.toLocaleDateString('en-US',{ weekday:'long', year:'numeric', month:'long', day:'numeric'})}`;
-document.getElementById('tipTitle').textContent = `Nursing/Medical Student Tip #${tipIndex+1}`;
-document.getElementById('tipContent').textContent = tips[tipIndex];
-</script>
-<section class="section" id="usmle-step1">
-    <div class="container">
-        <h2 class="section-title">🧠 USMLE Step 1 & Board Review Series (BRS)</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>BRS Physiology</h3>
-                <p>Concise explanations, high-yield diagrams, clinical correlations. Essential for <strong>USMLE Step 1 prep</strong> and medical school exams.</p>
-                <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy BRS Physiology</a>
-            </article>
-            <article class="card">
-                <h3>BRS Pathology</h3>
-                <p>High-yield summaries, disease mechanisms, and practice questions. Perfect for fast review before exams.</p>
-                <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy BRS Pathology</a>
-            </article>
-            <article class="card">
-                <h3>Illustrated Reviews Pharmacology</h3>
-                <p>Visual learners love it — color-coded pathways, mnemonics, and clinical correlations for rapid memorization.</p>
-                <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy Illustrated Reviews Pharmacology</a>
-            </article>
-        </div>
-    </div>
+<section class="section" id="medical-school-books">
+<div class="container">
+<h2 class="section-title">Medical School Books & USMLE Review</h2>
+<div class="grid">
+<article class="card">
+<h3>📚 Lippincott Illustrated Reviews</h3>
+<p><strong>Visual medical textbooks</strong> - Biochemistry, Pharmacology, Microbiology, Anatomy, Physiology. Perfect <strong>USMLE Step 1 review books</strong>.</p>
+<a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy Illustrated Reviews</a>
+</article>
+
+<article class="card">
+<h3>USMLE Step 1 Review Series</h3>
+<p>Comprehensive Q&A + high-yield concepts. Ideal for <strong>medical students</strong> aiming for top USMLE scores.</p>
+<a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" class="cta" target="_blank" rel="nofollow sponsored">Buy USMLE Review</a>
+</article>
+</div>
+</div>
 </section>
-
-<!-- FAQ / Backlink Booster Section -->
-<section class="section" id="faq-backlinks">
-    <div class="container">
-        <h2 class="section-title">❓ FAQs & Quick Backlink Booster</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>How do I choose the best nursing textbook?</h3>
-                <p>Start with the <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0">Nursing Drug Handbook</a> and complement with BRS & Illustrated Reviews for your specialty. Reviews and student experiences help identify high-quality references.</p>
-            </article>
-            <article class="card">
-                <h3>Can I use these books for USMLE Step 1?</h3>
-                <p>Absolutely. <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0">Illustrated Reviews</a> and BRS series are high-yield for Step 1 prep. Combine with question banks for best results.</p>
-            </article>
-            <article class="card">
-                <h3>Instant traffic & authority boost?</h3>
-                <p>Use the prebuilt student experience section for Reddit, Quora, and Medium posts. Copy & paste sections externally to create backlinks. Google sees: authority, relevance, engagement — boosting your SERP rankings.</p>
-            </article>
-        </div>
-        <p style="text-align:center;margin-top:40px;font-size:1rem;color:#4a5568;">
-            🚀 Want the final weapon for backlinks? You can generate exact Reddit posts, Quora answers, and Medium articles that rank in 24–72 hours. Copy & paste for instant SEO advantage.
-        </p>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>© 2026 LWW Nursing & Medical Textbooks Guide. All rights reserved.</p>
-        <p>Shop affiliate links: 
-            <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">Nursing Drug Handbook</a> | 
-            <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">Pocket Drug Guide</a> | 
-            <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">Illustrated Reviews</a> | 
-            <a href="https://www.linkconnector.com/ta.php?lc=014538024578003224&atid=ShopLWW-Web&lcpt=0&lcpf=0" target="_blank" rel="nofollow sponsored">BRS Series</a>
-        </p>
-        <p>Affiliate disclosure: I earn commission at no extra cost to you from these links.</p>
-    </div>
-</footer>
-
-<!-- Optional: Scroll to top button -->
-<script>
-const scrollBtn = document.createElement('button');
-scrollBtn.textContent = "⬆ Top";
-scrollBtn.style.position="fixed";
-scrollBtn.style.bottom="20px";
-scrollBtn.style.right="20px";
-scrollBtn.style.padding="12px 16px";
-scrollBtn.style.border="none";
-scrollBtn.style.borderRadius="12px";
-scrollBtn.style.background="#1e40af";
-scrollBtn.style.color="white";
-scrollBtn.style.fontWeight="700";
-scrollBtn.style.cursor="pointer";
-scrollBtn.style.boxShadow="0 8px 20px rgba(0,0,0,0.2)";
-scrollBtn.onclick = ()=> window.scrollTo({top:0,behavior:'smooth'});
-document.body.appendChild(scrollBtn);
-</script>
-
-</body>
-</html>
