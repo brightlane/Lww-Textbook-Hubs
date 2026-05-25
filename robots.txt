@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+
+# Sitemaps
 Sitemap: https://brightlane.github.io/Lww-Textbook-Hubs/sitemap.xml
+
+# AI Crawlers
+Sitemap: https://brightlane.github.io/Lww-Textbook-Hubs/llms.txt
